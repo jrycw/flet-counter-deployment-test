@@ -1,3 +1,1 @@
-flet
-flet-core
-flet-cli
+flet[all]==0.25.2
