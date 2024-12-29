@@ -1,1 +1,3 @@
-flet[all]
+flet
+flet-core
+flet-cli
