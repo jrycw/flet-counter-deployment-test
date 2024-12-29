@@ -57,6 +57,7 @@ jobs:
 
     - name: Flet Build Web
       run: |
+            source venv/bin/activate
             echo "GITHUB_REPOSITORY: ${GITHUB_REPOSITORY}, USER: ${GITHUB_REPOSITORY%/*}, PROJECT_BASE_URL: ${GITHUB_REPOSITORY#*/}"
             flutter config --no-analytics
             flet build web --base-url ${GITHUB_REPOSITORY#*/} --route-url-strategy hash
