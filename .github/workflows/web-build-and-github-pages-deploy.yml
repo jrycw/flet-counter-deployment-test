@@ -48,7 +48,7 @@ jobs:
       run: |
         uv venv venv
         source venv/bin/activate
-        uv pip install -r requirements.txt --upgrade
+        uv pip install -r requirements.txt
   
     - name: Setup Flutter ${{ env.FLUTTER_VERSION }}
       uses: subosito/flutter-action@v2
